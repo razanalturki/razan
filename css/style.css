@@ -1,0 +1,236 @@
+body
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    direction: rtl;
+}
+
+
+.container
+{ 
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
+
+ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+header
+{
+ background: #8efaf5;
+ color: #014871;
+ padding-top: 30px;
+ min-height: 70px;
+ border-bottom:#ffdec3 5px solid;
+}
+
+header a
+{
+    color: #63bbe1;
+    text-decoration: none;
+    text-align: center;
+}
+
+header li
+{
+ float: right;
+ display: inline;
+padding: 0 20px  0 20px;
+}
+
+header #brand
+{
+    float: right;
+}
+
+header #brand h1
+{
+    margin: 0;
+    color:#008577
+}
+
+header nav
+{
+    float: left;
+    margin-top: 10px;
+}
+
+header .current a
+{
+    color: #e2544f;
+    font-weight: bold;
+}
+
+header a:hover
+{
+    color: #210493;
+    font-weight: bold; 
+}
+
+#showcase
+{
+    min-height: 400px;
+    background: url("../css/مسارات.webp") no-repeat center;
+    background-size: cover;
+    padding: 15px;
+}
+
+    #example
+{
+    min-height: 400px;
+    background: url("../css/السننه\ المشتركة.jpg") no-repeat center;
+    background-size:contain;
+    padding: 15px;  
+}
+
+#second
+{
+    min-height: 400px;
+    background: url("../css/ثاني\ ثانوي.webp") no-repeat center;
+    background-size:contain;
+    padding: 15px;
+}
+
+#thired
+{
+    min-height: 400px;
+    background: url("../css/ثالث\ ثانوي.webp") no-repeat center;
+    background-size:contain;
+    padding: 15px;
+}
+
+#fourth
+{
+    min-height: 400px;
+    background: url("../css/المساار\ الرابع.webp") no-repeat center;
+    background-size:contain;
+    padding: 15px;
+}
+
+#fifth
+{
+    min-height: 400px;
+    background: url("../css/المسار\ الخامس.webp") no-repeat center;
+    background-size:contain;
+    padding: 15px;
+}
+
+
+
+#newsletter
+{
+    padding: 15px;
+    color: #000000;
+    background: #d7fffd;
+}
+
+#newsletter h1
+{
+    float: right;
+}
+
+#newsletter form
+{
+    float: left;
+    margin-top: 15px;
+}
+
+#newsletter input[type="text"]
+{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+.button
+{
+  height: 38px;
+  background: #bec9ca;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #000000;
+}
+#tytle
+{
+    float: right;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    font-size: 50px;
+    color:#03584e;
+    background-color: #d2fffd ; 
+    
+}
+
+#boxes
+{
+    margin-top: 20px;
+}
+
+#boxes .box
+{
+    float: right;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+footer
+{
+    padding: 20px;
+    margin-top: 20px;
+    color: #00aeba;
+    background-color: #fcfcfc;
+    text-align: center;
+}
+
+@media(max-width:768px)
+{
+    header #brand,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header
+    {
+        padding-bottom: 20px;
+    }
+    #newsletter .button
+    {
+        display:block;
+        width: 100%;
+    }
+
+#newsletter form input [type="text"]
+{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
